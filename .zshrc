@@ -5,8 +5,8 @@ PS1="%B%{$fg[red]%}[%{$fg[white]%}%n%{$fg[white]%}@%{$fg[white]%}%M %{$fg[white]
 
 # aliases
 
-alias vim=vim.tiny
-alias pfetch='sh ~/Downloads/pfetch'
+alias pfetch='sh ~/Downloads/Programs/pfetch'
+#alias spotify='snap run spotify'
 
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -77,4 +77,4 @@ bindkey -s '^o' 'lfcd\n'  # zsh
 
 # load zsh-syntax-highlighting
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
