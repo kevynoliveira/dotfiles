@@ -3,11 +3,6 @@
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[white]%}%n%{$fg[white]%}@%{$fg[white]%}%M %{$fg[white]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
-# aliases
-
-alias pfetch='sh ~/Downloads/Programs/pfetch'
-#alias spotify='snap run spotify'
-
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
