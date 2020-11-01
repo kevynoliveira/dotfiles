@@ -27,7 +27,7 @@ Workspaces() {
 		;;
 
 		4)
-			echo -n "%{F$color3}I II III IV %{F$color7} V%{F$color7}"
+			echo -n "%{F$color3}I II III IV %{F$color7}V%{F$color7}"
 		;;
 	esac
 }
