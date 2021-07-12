@@ -4,7 +4,10 @@
 
 # terminal emulator
 super + Return
-	st
+	urxvt
+
+super + shift + Return
+	urxvt -name floating
 
 # program launcher
 super + @space
@@ -145,3 +148,10 @@ XF86MonBrightnessDown
 
 XF86MonBrightnessUp
 	xbacklight -inc 5
+
+#
+# lock screen
+#
+
+super + z
+	slock
