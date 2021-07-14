@@ -1,9 +1,27 @@
 @import 'colors.css';
 
-headerbar {
-    min-height: 24px;
-    padding-left: 2px; /* same as childrens vertical margins for nicer proportions */
-    padding-right: 2px;
-    margin: 0px; /* same as headerbar side padding for nicer proportions */
+/* x11 and xwayland windows */
+window.ssd headerbar.titlebar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    min-height: 0;
+}
+
+window.ssd headerbar.titlebar button.titlebutton {
     padding: 0px;
-  }
+    min-height: 0;
+    min-width: 0;
+}
+
+
+/* native wayland ssd windows */
+.default-decoration {
+    padding: 3px;
+    min-height: 0;
+}
+
+.default-decoration .titlebutton {
+    padding: 0px;
+    min-height: 0;
+    min-width: 0;
+}
